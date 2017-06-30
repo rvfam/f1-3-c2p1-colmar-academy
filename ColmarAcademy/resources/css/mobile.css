@@ -1,0 +1,130 @@
+ @media only screen and (max-width:1040px){
+   html{
+     padding:1rem;
+   }
+
+
+  .header .mobile-logo-nav{
+    background-color:#A89170;
+     height:4rem;
+     width:100%;
+     display:inline-flex;
+     align-items: center;
+     justify-content: space-around;
+   }
+
+   .header .logo-nav{
+     display:none;
+   }
+   .banner{
+     display: block;
+   }
+
+   .banner img{
+     width:90%;
+   }
+   .banner-right-bar{
+     display:block;
+     width:100%;
+   }
+   .banner .banner-right-bar h1{
+     margin-top: 2rem;
+   }
+
+   .information{
+     height:auto;
+     width:100%;
+     display: block;
+   }
+
+  .information .info-main{
+     width:90%;
+        }
+  .information   .information-right-bar{
+     display:none;
+      }
+      .information   .information-mobile-bar{
+        display:block;
+      }
+
+
+  .information .information-mobile-bar .info{
+        display: block;
+        width:100%;
+        height:auto;
+      }
+    .information .information-mobile-bar  .info img{
+
+        width:90%;
+
+      }
+    .courses .course-items{
+      display:none;
+    }
+    .courses{
+      display: block;
+      background-color:#F1FEE5;
+      color:#1A0445;
+      height:auto;
+      width:100%;
+      text-align: center;
+    }
+    .courses .mobile-course-items {
+          display: block;
+          width:90%;
+        }
+
+
+  .courses .mobile-course-items .mob-course{
+        color:#A1bb88;
+        display: block;
+        width:90%;
+        height: 3rem;
+        background-color:#A89170;
+        margin:1rem;
+        vertical-align: middle;
+
+      }
+  .courses .mobile-course-items .mob-course p{
+
+      font-size:1rem;
+      font-weight:bold;
+      padding:1rem;
+      text-align: left;
+
+      }
+
+      .thesis{
+        width:100%;
+
+      }
+      .thesis .thesis-main{
+        display: block;
+        width:90%;
+      }
+      .thesis-main video{
+        width:90%;
+      }
+      .thesis-summary{
+        display: none;
+      }
+      
+
+      .thesis .thesis-main .thesis-side-bar{
+        display: none;
+      }
+      .footer{
+        width:auto;
+        height:auto;
+      }
+      .footer span{
+        font-size:0.5rem;
+        margin-top:1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+      }
+      .footer ul {
+        display: none;
+      }
+ }
